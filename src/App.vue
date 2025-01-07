@@ -4,7 +4,11 @@ import Second from './components/Second.vue'
 import GlobalStyle from './components/GlobalStyle.vue'
 import LocalStyle from './components/LocalStyle.vue'
 import ModularStyle from './components/ModularStyle.vue'
-import MyEvent from './components/MyEvent.vue'
+import MyEvent from './components/MyEvent.vue';
+import MyReactiveComponent from './components/MyReactiveComponent.vue';
+import ComputedProperties from './components/ComputedProperties.vue';
+import ConditionalComponent from './components/ConditionalComponent.vue';
+import IterativeComponent from './components/IterativeComponent.vue';
 </script>
 
 <template>
@@ -16,7 +20,15 @@ import MyEvent from './components/MyEvent.vue'
  <LocalStyle></LocalStyle>
  <ModularStyle></ModularStyle> -->
  
- <MyEvent></MyEvent>
+ <!-- 
+ <MyEvent></MyEvent>-->
+  
+  <!-- <MyReactiveComponent></MyReactiveComponent> -->
+   
+   <!-- <ComputedProperties></ComputedProperties> -->
+    
+    <!-- <ConditionalComponent></ConditionalComponent> -->
+    <IterativeComponent></IterativeComponent>
 </template>
 
 <style scoped>
