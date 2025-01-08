@@ -9,6 +9,7 @@ import MyReactiveComponent from './components/MyReactiveComponent.vue';
 import ComputedProperties from './components/ComputedProperties.vue';
 import ConditionalComponent from './components/ConditionalComponent.vue';
 import IterativeComponent from './components/IterativeComponent.vue';
+import TwoWayBindingComponent from './components/TwoWayBindingComponent.vue'
 </script>
 
 <template>
@@ -28,7 +29,9 @@ import IterativeComponent from './components/IterativeComponent.vue';
    <!-- <ComputedProperties></ComputedProperties> -->
     
     <!-- <ConditionalComponent></ConditionalComponent> -->
-    <IterativeComponent></IterativeComponent>
+    <!-- <IterativeComponent></IterativeComponent> -->
+     
+   <TwoWayBindingComponent></TwoWayBindingComponent>
 </template>
 
 <style scoped>
